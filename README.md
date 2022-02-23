@@ -1,6 +1,6 @@
 # Setings
 
-## Virtual Env (W,Windows),(L,Linux),(M,Mac)
+## Virtual Env (W,Windows),(L,Linux)
 #### Create virtual environment (W,L)
 * virtualenv: `virtualenv <envName>`
 * python3 venv: `python3 -m venv <envName>`
