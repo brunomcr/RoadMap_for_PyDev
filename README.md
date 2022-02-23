@@ -52,9 +52,9 @@
 ### Poetry + Django
 * `poetry run`+`<django command>`
   #### Start a Django Project
-  * `poetry run django-admin startproject <projectName>`
+  * `poetry run` `django-admin startproject <projectName>`
   #### Start a Django App
-  * `poetry run py manage.py startapp <appName>`
+  * `poetry run` `py manage.py startapp <appName>`
 
 
 ## Djando
