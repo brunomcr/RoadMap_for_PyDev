@@ -1,11 +1,11 @@
-# Setings
+# Setings 
 
-## Virtual Env (W,Windows),(L,Linux)
-#### Create virtual environment (W,L)
+## Virtual Env (obsolete, when used whit Poetry)
+#### Create virtual environment
 * virtualenv: `virtualenv <envName>`
 * python3 venv: `python3 -m venv <envName>`
 
-#### Windows Security Authorization (W)
+#### Windows Security Authorization (Windows)
 * `Set-ExecutionPolicy Unrestricted -Scope Process`
 
 #### Start virtual environment 
@@ -38,7 +38,7 @@
 #### New Init (will create a pyproject.toml)
 * `poetry init`
 #### Start a virtuenv
-* `poetry env use py`
+* `source $(poetry env info --path)/bin/activate`
 #### Build
 * `poetry build`
 #### Publish
