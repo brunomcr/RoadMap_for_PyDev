@@ -53,13 +53,16 @@
 
 #### Install App
 * open Settings.py and add you `<appName>` to list `INSTALLED_APPS`
-
+s
 #### Migrate / Makemigrations
 * `python manage.py migrate`
 * `python manage.py makemigrations`
 
 #### Run Server
 * `python manage.py runserver`
+
+#### Create Super User (Admin)
+* `python manage.py createsuperuser`
 
 
 ## PostgreSQL
