@@ -53,7 +53,7 @@
 
 #### Install App
 * open Settings.py and add you `<appName>` to list `INSTALLED_APPS`
-s
+
 #### Migrate / Makemigrations
 * `python manage.py migrate`
 * `python manage.py makemigrations`
