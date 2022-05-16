@@ -1,19 +1,6 @@
-# Setings 
-
-## Virtual Env (obsolete, when used whit Poetry)
-#### Create virtual environment
-* virtualenv: `virtualenv <envName>`
-* python3 venv: `python3 -m venv <envName>`
-
-#### Windows Security Authorization (Windows)
-* `Set-ExecutionPolicy Unrestricted -Scope Process`
-
-#### Start virtual environment 
-* (W): `.\\<patchEnv>\<envName>\Scripts\activate`
-* (L): `source <patchEnv>/<envName>/bin/activate`
-
-#### Stop virtual environment (W,L)
-* `deactivate`
+## Linux
+#### Kill process in specif PORT:
+* `sudo kill -9 $(sudo lsof -t -i:8000)`
 
 
 ## Git
@@ -67,9 +54,12 @@
 #### Install App
 * open Settings.py and add you `<appName>` to list `INSTALLED_APPS`
 
-#### Migrate
+#### Migrate / Makemigrations
 * `python manage.py migrate`
+* `python manage.py makemigrations`
 
 #### Run Server
 * `python manage.py runserver`
 
+
+## PostgreSQL
