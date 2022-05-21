@@ -47,6 +47,7 @@
 ## Djando
 #### Create Project
 * `django-admin startproject <projectName>`
+* `django-admin startproject <projectName> .` (create project, without create a new dir) 
 
 #### Create App
 * `python manage.py startapp <appName>`
