@@ -81,3 +81,7 @@
 #### Info.
 * `docker images`
 * `docker ps` and `docker ps -a`
+#### Delete images and containers
+* `docker system prune`
+
+
