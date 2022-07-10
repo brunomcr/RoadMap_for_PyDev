@@ -70,9 +70,11 @@
 
 
 ## Docker
+#### Create
+* `docker build` 
 * `docker run --name <imageName> -d -p <localPort>:<dockerPort> <imageName>:<versionTag>`
   * Exemple: `docker run --name bookstore -d -p 8000:8000 bookstore:latest`
-* `docker build` 
+#### Info.
 * `docker push` 
 * `docker images`
-* `docker ps`
+* `docker ps` and `docker ps -a`
