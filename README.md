@@ -85,3 +85,8 @@
 * `docker system prune`
 
 
+## Docker Compose
+#### Build
+* `docker-compose up --build`  
+
+
