@@ -74,7 +74,7 @@
 * `docker build`
   * `docker build --tag <imageName> .`  
   * `docker build -t <imageName>:<versionTag> .`  
-* Run
+#### Run
 * `docker run --name <imageName> -d -p <localPort>:<dockerPort> <imageName>:<versionTag>`
 #### Publish
 * `docker push` 
@@ -83,6 +83,8 @@
 * `docker ps` and `docker ps -a`
 #### Delete images and containers
 * `docker system prune`
+#### Network
+* `docker network ls`  
 
 
 ## Docker Compose
