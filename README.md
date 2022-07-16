@@ -92,3 +92,10 @@
 * `docker-compose up --build`  
 
 
+## Heroku
+#### Login
+* `heroku login`
+#### Secrets Key / Authentication 
+* `heroku auth:token`
+#### Logs
+* `heroku logs`
