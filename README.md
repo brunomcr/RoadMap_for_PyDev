@@ -1,7 +1,13 @@
-## Linux
+# WebDevOps a command-line guided RoadMap.
+* Help command for creating a Web application and automating its integration and deployment.
+
+## Linux (Ubuntu)
 #### Kill process in specif PORT:
 * `sudo kill -9 $(sudo lsof -t -i:8000)`
 
+## Python
+
+## Black (Optional)
 
 ## Git
 #### Status
