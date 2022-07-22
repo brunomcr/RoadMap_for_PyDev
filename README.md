@@ -71,6 +71,9 @@
 #### Create Super User (Admin)
 * `python manage.py createsuperuser`
 
+#### Shell
+* `python manage.py shell`
+
 
 ## PostgreSQL
 
