@@ -109,6 +109,15 @@
 ### Create new App
 * `heroku create -a <example-app>`
   * Use the `git remote -v` command to confirm that a remote named heroku has been set for your app:
+### Existing App
+* `heroku git:remote -a example-app`
+
+### Deploy Your Code
+* `git push heroku main`
+
+### Deploy From a Branch Besides main
+* `git push heroku testbranch:main`
+
 #### Secrets Key / Authentication 
 * `heroku auth:token`
 #### Logs
