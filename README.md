@@ -17,7 +17,7 @@
 #### Checkout for a new branch
 * `git checkout -b "<branchName>"`
 #### Others Command
-* `git add <projectName>` or `git add .`
+* `git add <fileName>` or `git add .`
 * `git commit -m "<Commit Menssage>"`
 * `git remote add origin <SSHpatchGit>`
 * `git pull origin main --allow-unrelated-histries`
