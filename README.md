@@ -121,4 +121,4 @@
 #### Secrets Key / Authentication 
 * HEROKU_API_KEY `heroku auth:token`
 #### Logs
-* `heroku logs`
+* `heroku logs` `heroku logs -t`
