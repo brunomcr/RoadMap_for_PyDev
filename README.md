@@ -119,6 +119,6 @@
 * `git push heroku testbranch:main`
 
 #### Secrets Key / Authentication 
-* `heroku auth:token`
+* HEROKU_API_KEY `heroku auth:token`
 #### Logs
 * `heroku logs`
