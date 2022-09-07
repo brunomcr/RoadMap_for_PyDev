@@ -224,7 +224,7 @@
   ```
 
   ### How to use
-  * ```@pytest.fixture```: A function thats run every time is called.
+  * ```@pytest.fixture```: Is a function thats run every time is called.
   * ```@pytest.mark.django_db```: Database access for test function.
 
   Pattern for writing tests:
