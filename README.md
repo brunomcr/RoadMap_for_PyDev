@@ -188,8 +188,8 @@
   ```
 
   ### How to use
-  ```@pytest.fixture```: A function thats run every time is called.
-  ```@pytest.mark.django_db```: Database access for test function.
+  * ```@pytest.fixture```: A function thats run every time is called.
+  * ```@pytest.mark.django_db```: Database access for test function.
 
   Pattern for writing tests:
   * Arrange
@@ -200,8 +200,8 @@
   ```
   pytest -s
   ```
-  ```pytest -rP```: for captured output of passed tests
-  ```pytest -rx```: for captured output of failed tests (default behaviour).
+  * ```pytest -rP```: for captured output of passed tests
+  * ```pytest -rx```: for captured output of failed tests (default behaviour).
 </details>
 
 
