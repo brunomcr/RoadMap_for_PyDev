@@ -252,7 +252,7 @@ python manage.py shell
   ```
   heroku create -a <example-app>
   ```
-    * Use the ```git remote -v``` command to confirm that a remote named heroku has been set for your app:
+  Use the ```git remote -v``` command to confirm that a remote named heroku has been set for your app
   #### Existing App
   ```
   heroku git:remote -a example-app
