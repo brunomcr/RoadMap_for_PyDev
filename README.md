@@ -187,6 +187,38 @@ python manage.py shell
 
 <details>
   <summary>
+    <h3>Pytest</h3>
+  </summary>
+
+  ### Settings:
+  #### pyproject.toml
+  ```
+  [tool.pytest.ini_options]<br>
+  python_files = ["test_*.py", "*_test.py"]<br>
+  DJANGO_SETTINGS_MODULE = "lcrp.settings"
+  ```
+
+  ### How to use
+  ```@pytest.fixture```: A function thats run every time is called.
+  ```@pytest.mark.django_db```: Database access for test function.
+
+
+  Pattern for writing tests:
+  * Arrange
+  * Act
+  * Assert
+
+  Capture stdout
+  ```
+  pytest -s
+  ```
+  ```pytest -rP```: for captured output of passed tests
+  ```pytest -rx```: for captured output of failed tests (default behaviour).
+</details>
+
+
+<details>
+  <summary>
     <h3>Docker</h3>
   </summary>
 
