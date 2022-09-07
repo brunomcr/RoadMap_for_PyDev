@@ -20,7 +20,15 @@
   </summary> 
   
   #### Windows Security Authorization (W)
-    ```Set-ExecutionPolicy Unrestricted -Scope Process```
+  ```
+    Get-ExecutionPolicy
+  ```
+  ```
+    Set-ExecutionPolicy Unrestricted -Scope Process
+  ```
+  ```
+    Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+  ```
 </details>  
 
 <hr>
@@ -224,7 +232,7 @@
   ```
 
   ### How to use
-  * ```@pytest.fixture```: Is a function thats run every time is called.
+  * ```@pytest.fixture```: Is a function that's run every time is called.
   * ```@pytest.mark.django_db```: Database access for test function.
 
   Pattern for writing tests:
