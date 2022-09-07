@@ -1,7 +1,6 @@
 # WebDevOps a command-line guided RoadMap.
 * Help command for creating a Web application and automating its integration and deployment.
 
-
 <details>
   <summary>
     <h3>Linux (Ubuntu)</h3>
@@ -13,6 +12,15 @@
   ```  
 </details>
 
+<details>
+  <summary>
+    <h3>Windows</h3>
+  </summary> 
+  
+  #### Windows Security Authorization (W)
+    ```Set-ExecutionPolicy Unrestricted -Scope Process```
+</details>  
+  
 
 <details>
   <summary>
@@ -69,6 +77,24 @@
   ```
   git remote -v
   ```
+</details>
+  
+  
+<details>
+  <summary>
+    <h3>Virtual Env (W,Windows),(L,Linux),(M,Mac)</h3>
+  </summary> 
+
+  #### Create virtual environment (W,L)
+  * virtualenv: ```virtualenv <envName>```
+  * python3 venv: ```python3 -m venv <envName>```
+
+  #### Start virtual environment 
+  * (W): ```.\\<patchEnv>\<envName>\Scripts\activate```
+  * (L): ```source <patchEnv>/<envName>/bin/activate```
+
+  #### Stop virtual environment (W,L)
+  ```deactivate```
 </details>
 
 
