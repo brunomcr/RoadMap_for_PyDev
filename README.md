@@ -104,16 +104,8 @@
   #### Install Package
   ```
   poetry add <namePackage>
-  ```
-</details>
-
-
-<details>
-  <summary>
-    <h3> Poetry + Django</h3>
-  </summary>
-  
-
+  ``` 
+  #### Run
   ```
   poetry run`+`<django command>
   ```
@@ -133,46 +125,45 @@
     <h3>Djando</h3>
   </summary>
   
+  #### Create Project
+  ```
+  django-admin startproject <projectName>
+  ```
+  #### (create project, without create a new dir) 
+  ```
+  django-admin startproject <projectName> .
+  ``` 
 
-#### Create Project
-```
-django-admin startproject <projectName>
-```
-#### (create project, without create a new dir) 
-```
-django-admin startproject <projectName> .
-``` 
+  #### Create App
+  ```
+  python manage.py startapp <appName>
+  ```
 
-#### Create App
-```
-python manage.py startapp <appName>
-```
+  #### Install App
+  * open Settings.py and add you `<appName>` to list `INSTALLED_APPS`
 
-#### Install App
-* open Settings.py and add you `<appName>` to list `INSTALLED_APPS`
+  #### Migrate / Makemigrations
+  ```
+  python manage.py migrate
+  ```
+  ```
+  python manage.py makemigrations
+  ```
 
-#### Migrate / Makemigrations
-```
-python manage.py migrate
-```
-```
-python manage.py makemigrations
-```
+  #### Run Server
+  ```
+  python manage.py runserver
+  ```
 
-#### Run Server
-```
-python manage.py runserver
-```
+  #### Create Super User (Admin)
+  ```
+  python manage.py createsuperuser
+  ```
 
-#### Create Super User (Admin)
-```
-python manage.py createsuperuser
-```
-
-#### Shell
-```
-python manage.py shell
-```
+  #### Shell
+  ```
+  python manage.py shell
+  ```
 </details>
 
 
@@ -180,8 +171,6 @@ python manage.py shell
   <summary>
     <h3>PostgreSQL</h3>
   </summary>
-  
- 
 </details>
 
 
@@ -195,13 +184,12 @@ python manage.py shell
   ```
   [tool.pytest.ini_options]<br>
   python_files = ["test_*.py", "*_test.py"]<br>
-  DJANGO_SETTINGS_MODULE = "lcrp.settings"
+  DJANGO_SETTINGS_MODULE = "<djangoProject>.settings"
   ```
 
   ### How to use
   ```@pytest.fixture```: A function thats run every time is called.
   ```@pytest.mark.django_db```: Database access for test function.
-
 
   Pattern for writing tests:
   * Arrange
