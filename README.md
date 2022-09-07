@@ -12,6 +12,8 @@
   ```  
 </details>
 
+<hr>
+
 <details>
   <summary>
     <h3>Windows</h3>
@@ -20,7 +22,8 @@
   #### Windows Security Authorization (W)
     ```Set-ExecutionPolicy Unrestricted -Scope Process```
 </details>  
-  
+
+<hr>
 
 <details>
   <summary>
@@ -29,6 +32,7 @@
   
 </details>
 
+<hr>
 
 <details>
   <summary>
@@ -37,6 +41,7 @@
   
 </details>
 
+<hr>
 
 <details>
   <summary>
@@ -78,7 +83,8 @@
   git remote -v
   ```
 </details>
-  
+
+<hr>
   
 <details>
   <summary>
@@ -97,7 +103,8 @@
   ```deactivate```
 </details>
 
-
+<hr>
+  
 <details>
   <summary>
     <h3>Poetry</h3>
@@ -145,6 +152,7 @@
   ```
 </details>
 
+<hr>
 
 <details>
   <summary>
@@ -192,6 +200,7 @@
   ```
 </details>
 
+<hr>
 
 <details>
   <summary>
@@ -199,6 +208,7 @@
   </summary>
 </details>
 
+<hr>
 
 <details>
   <summary>
@@ -230,7 +240,8 @@
   * ```pytest -rx```: for captured output of failed tests (default behaviour).
 </details>
 
-
+<hr>
+  
 <details>
   <summary>
     <h3>Docker</h3>
@@ -271,6 +282,7 @@
   ```
 </details>
 
+<hr>
 
 <details>
   <summary>
@@ -281,10 +293,11 @@
   ```
   docker-compose up --build
   ```
-  </details>
+</details>
 
+<hr>
 
-  <details>
+<details>
     <summary>
       <h3>Heroku</h3>
     </summary>
