@@ -249,6 +249,24 @@
 </details>
 
 <hr>
+
+<details>
+  <summary>
+    <h3>Factory Boy</h3>
+  </summary>
+
+  * Returns a User instance that's not saved:
+    * ```user = UserFactory.build()```
+
+  * Returns a saved User instance.
+    * UserFactory must subclass an ORM base class, such as DjangoModelFactory.
+    * ```user = UserFactory.create()```
+
+  * Returns a stub object (just a bunch of attributes)
+    * ```obj = UserFactory.stub()```
+</details>
+
+<hr>
   
 <details>
   <summary>
