@@ -19,7 +19,21 @@
     <h3>Windows</h3>
   </summary> 
   
-  #### Windows Security Authorization (W)
+  #### CMD
+  * `echo "text_to_print"` - Write in the console
+  * `echo "text_to_print" > <fileName>` - ">" Write in the file
+  * `DIR` - List the folders and files in the current directory.
+  * `CD` - Change Directory.
+    * `CD <dirName>`
+    * `CD ..`
+  * `move <fileName> <pathToMove>` - Move file to other location.
+  * `type <fileName>` - Read and return its content in the console.
+  * `copy <fileName> <fileNewName>` - Copy a file with new name.
+  * `rename <fileName> <fileNewName>` - Rename the file.
+  * `del <fileName>` - Delete file.
+  * `cls` - Clear Screen
+    
+  #### Windows Security Authorization
   ```
     Get-ExecutionPolicy
   ```
