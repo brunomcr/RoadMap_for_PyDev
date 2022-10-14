@@ -40,6 +40,11 @@
   * `cls` - Clear Screen.
   * `tree` - Shows folders and subfolders arranged in a tree.
   * `pause` - Waits for a user interaction with the terminal.
+  * `PATH` - Variable where paths to scripts are found
+  * `set` - Set a temporary variable, while cmd is open.
+  * `setx` - Set a permanentely variable.
+    * `setx <VAR_NAME>=<VAR_VALUE> /M`
+    
   
     
   #### Windows Security Authorization
