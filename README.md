@@ -21,17 +21,26 @@
   
   #### CMD
   * `echo "text_to_print"` - Write in the console
-  * `echo "text_to_print" > <fileName>` - ">" Write in the file
+  * `echo "text_to_print" > <fileName>` - ">" Create a fileName to write the content.
+  * `echo "text_to_print" >> <fileName>` - ">>"  Create if not ecxist or open a fileName to write the content.
+  * `@echo off` - Makes the commands that are in the scripts not appear during their execution, showing only their results.
   * `DIR` - List the folders and files in the current directory.
+  * `mkdir` - Make a directory.
+  * `rmdir` - Remove a directory.
   * `CD` - Change Directory.
     * `CD <dirName>`
     * `CD ..`
   * `move <fileName> <pathToMove>` - Move file to other location.
   * `type <fileName>` - Read and return its content in the console.
+  * `more <fileName>` - Read and return its content in the console.
   * `copy <fileName> <fileNewName>` - Copy a file with new name.
+  * `xcopy <dirName> <dirNewName>` - Copy a dir with new name.
   * `rename <fileName> <fileNewName>` - Rename the file.
   * `del <fileName>` - Delete file.
-  * `cls` - Clear Screen
+  * `cls` - Clear Screen.
+  * `tree` - Shows folders and subfolders arranged in a tree.
+  * `pause` - Waits for a user interaction with the terminal.
+  
     
   #### Windows Security Authorization
   ```
