@@ -150,10 +150,10 @@
   ```
   poetry config --list
   ```
-  True = To create virtualenvs inside projects, default = null
   ```
   poetry config virtualenvs.in-project true
   ```
+  * True = To create virtualenvs inside projects, default = null
   #### New Project (will create a python project)
   ```
   poetry new <projectName>
@@ -179,14 +179,14 @@
   poetry export -o <fileName>.txt
   ```
   #### Install Package
-  For production dependencies to the project:
   ```
   poetry add <namePackage>
   ``` 
-  For development dependencies: 
+  * For production dependencies to the project.
   ```
   poetry add <namePackage> -D
   ```
+  * For development dependencies.
   #### Run
   ```
   poetry run`+`<django command>
