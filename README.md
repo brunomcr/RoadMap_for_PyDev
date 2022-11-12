@@ -146,6 +146,14 @@
     <h3>Poetry</h3>
   </summary>
   
+  #### Poetry Config
+  ```
+  poetry config --list
+  ```
+  True = To create virtualenvs inside projects, default = null
+  ```
+  poetry config virtualenvs.in-project true
+  ```
   #### New Project (will create a python project)
   ```
   poetry new <projectName>
