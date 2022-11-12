@@ -171,9 +171,14 @@
   poetry export -o <fileName>.txt
   ```
   #### Install Package
+  For production dependencies to the project:
   ```
   poetry add <namePackage>
   ``` 
+  For development dependencies: 
+  ```
+  poetry add <namePackage> -D
+  ```
   #### Run
   ```
   poetry run`+`<django command>
