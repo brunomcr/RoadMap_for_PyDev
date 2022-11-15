@@ -325,8 +325,10 @@
   docker build -t <imageName>:<versionTag> .
   ```
   #### Run
-  ```
+  ```shell
   docker run --name <imageName> -d -p <localPort>:<dockerPort> <imageName>:<versionTag>
+  <exemple with sqlserver>
+  docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=<Password>" -p <localPort>:<dockerPort> --name <nameContainer> --hostname <hostnameContainer> -d mcr.microsoft.com/mssql/server:2019-latest 
   ```
   #### Publish
   ```
